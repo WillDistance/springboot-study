@@ -1,0 +1,32 @@
+2019-06-17-10-20 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.7.Final
+2019-06-17-10-20 [main] [com.study.AppStart] [INFO] - Starting AppStart on DESKTOP-4JH2949 with PID 7996 (H:\eclipse-workspace\springboot-05-log4j\target\classes started by YL in H:\eclipse-workspace\springboot-05-log4j)
+2019-06-17-10-20 [main] [com.study.AppStart] [INFO] - No active profile set, falling back to default profiles: default
+2019-06-17-10-20 [main] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [INFO] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@157632c9: startup date [Mon Jun 17 10:20:23 CST 2019]; root of context hierarchy
+2019-06-17-10-20 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8888 (http)
+2019-06-17-10-20 [localhost-startStop-1] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 6464 ms
+2019-06-17-10-20 [localhost-startStop-1] [org.springframework.boot.web.servlet.ServletRegistrationBean] [INFO] - Servlet dispatcherServlet mapped to [/]
+2019-06-17-10-20 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-17-10-20 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-17-10-20 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-17-10-20 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-17-10-20 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [INFO] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@157632c9: startup date [Mon Jun 17 10:20:23 CST 2019]; root of context hierarchy
+2019-06-17-10-20 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/log4jIndex]}" onto public java.lang.String com.study.controller.Log4jController.lo4jIndex()
+2019-06-17-10-20 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/lo4jAopIndex]}" onto public java.lang.String com.study.controller.Log4jController.lo4jAopIndex(java.lang.String,int)
+2019-06-17-10-20 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-17-10-20 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-17-10-20 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-17-10-20 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-17-10-20 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-17-10-20 [main] [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] [INFO] - Registering beans for JMX exposure on startup
+2019-06-17-10-20 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8888 (http) with context path '/study'
+2019-06-17-10-20 [main] [com.study.AppStart] [INFO] - Started AppStart in 13.148 seconds (JVM running for 14.707)
+2019-06-17-10-20 [http-nio-8888-exec-10] [org.springframework.web.servlet.DispatcherServlet] [INFO] - FrameworkServlet 'dispatcherServlet': initialization started
+2019-06-17-10-20 [http-nio-8888-exec-10] [org.springframework.web.servlet.DispatcherServlet] [INFO] - FrameworkServlet 'dispatcherServlet': initialization completed in 114 ms
+2019-06-17-10-20 [http-nio-8888-exec-10] [com.study.log.WebLogAspect] [INFO] - URL : http://127.0.0.1:8888/study/log4jIndex
+2019-06-17-10-20 [http-nio-8888-exec-10] [com.study.log.WebLogAspect] [INFO] - HTTP_METHOD : GET
+2019-06-17-10-20 [http-nio-8888-exec-10] [com.study.log.WebLogAspect] [INFO] - IP : 127.0.0.1
+2019-06-17-10-20 [http-nio-8888-exec-10] [com.study.log.WebLogAspect] [INFO] - 入参：{}
+2019-06-17-10-20 [http-nio-8888-exec-10] [com.study.controller.Log4jController] [INFO] - log4j打印日志-info
+2019-06-17-10-20 [http-nio-8888-exec-10] [com.study.controller.Log4jController] [ERROR] - log4j打印日志-error
+2019-06-17-10-20 [http-nio-8888-exec-10] [com.study.log.WebLogAspect] [INFO] - 处理本次请求共耗时：340 ms
+2019-06-17-10-20 [http-nio-8888-exec-10] [com.study.log.WebLogAspect] [INFO] - RESPONSE : 使用log4j打印日志:class com.study.controller.Log4jController

@@ -1,0 +1,15 @@
+#按大小产生日志文件备份
+log4j.rootLogger=INFO,ERROR
+log4j.appender.A1=org.apache.log4j.ConsoleAppender
+log4j.appender.A1.layout=org.apache.log4j.PatternLayout
+log4j.appender.A1.layout.ConversionPattern=%-d{yyyy-MM-dd HH:mm:ss} [%c-%l]-[%p] %m%n
+
+#全局过滤器 过滤低于info级别的日志
+log4j.appender.ERROR.Threshold=INFO
+log4j.appender.ERROR=org.apache.log4j.RollingFileAppender
+log4j.appender.ERROR.layout=org.apache.log4j.PatternLayout  
+log4j.appender.ERROR.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss} [%5p] - %c -%F(%L) -%m%n
+log4j.appender.ERROR.MaxFileSize=10240KB
+log4j.appender.ERROR.MaxBackupIndex=10
+log4j.appender.ERROR.Encoding=UTF-8
+log4j.appender.ERROR.File=./logs/test.log 

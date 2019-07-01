@@ -1,0 +1,6 @@
+
+邮件发送配置（application.properties）：
+spring.mail.host=smtp.qq.com（配置邮件发送协议）
+spring.mail.username=xxxx@qq.com(发件人，具体配成你需要的邮箱）
+spring.mail.password=对于qq邮箱来说，这里不是密码，而是授权码
+spring.mail.default-encoding=utf-8

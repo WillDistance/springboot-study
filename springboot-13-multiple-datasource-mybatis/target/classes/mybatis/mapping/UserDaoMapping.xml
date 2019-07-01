@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper 
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd"
+    >
+<mapper namespace="com.study.test01.service.dao.UserMappre1">
+	<!-- 
+	<select id="queryAllAccountInfo">
+		<if test="sortField!= null and sortField!='' and sortOrder !=null and sortOrder !=''">
+  			<bind name="orderby" value="@com.thinkive.base.mybatis.sql.MyBatisSQLHelper@orderByFilter(sortField,sortOrder)"/>
+  		</if>
+        select t.phone,t.account_id,t.miniapp_id,union_id,open_id,nick_name,head_img,join_time,sex,city,t.state,remark,t.create_user,t.create_time,t.update_user,t.update_time,province,
+       
+		<where> 
+		    <if test="account_id!= null and account_id!=''">and t.account_id= #{account_id}</if> 
+		  </where> 
+		  <if test="sortField!= null and sortField!='' and sortOrder !=null and sortOrder !=''"> order by ${orderby} </if>
+	</select>
+
+	<update id="updateAccountMessage">
+			update t_edugame_account t INNER join t_edugame_player t1 ON t.account_id = t1.account_id 
+		  <set> 
+		    <if test="head_img!= null and head_img!=''">t.head_img= #{head_img},</if>  
+		  </set>where t.account_id = #{account_id}
+	  	</update>
+ -->
+
+
+	<insert id="saveUserInfo" parameterType="com.study.entity.User">
+		insert into t_user
+		(
+		name,
+		email,
+		age
+		)
+		values
+		(
+		#{name},
+		#{email},
+		#{age}
+		)
+	</insert>
+	
+	<select id="queryUserInfo" resultType="com.study.entity.User">
+		select * from t_user
+		<where>
+			<if test="id!= null and id!=''">and id = #{id}</if>
+			<if test="name!= null and name!=''">and name like CONCAT('%',#{name},'%')</if>
+		</where>
+	</select> 
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

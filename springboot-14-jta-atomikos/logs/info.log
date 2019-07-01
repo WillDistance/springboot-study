@@ -1,0 +1,62 @@
+2019-06-30-14-39 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.7.Final
+2019-06-30-14-39 [main] [com.study.MybatisApp] [INFO] - Starting MybatisApp on DESKTOP-4JH2949 with PID 14028 (H:\eclipse-workspace\springboot-14-jta-atomikos\target\classes started by YL in H:\eclipse-workspace\springboot-14-jta-atomikos)
+2019-06-30-14-39 [main] [com.study.MybatisApp] [INFO] - No active profile set, falling back to default profiles: default
+2019-06-30-14-39 [main] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [INFO] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2ed0fbae: startup date [Sun Jun 30 14:39:27 CST 2019]; root of context hierarchy
+2019-06-30-14-39 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8888 (http)
+2019-06-30-14-39 [localhost-startStop-1] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 5917 ms
+2019-06-30-14-39 [localhost-startStop-1] [org.springframework.boot.web.servlet.ServletRegistrationBean] [INFO] - Servlet dispatcherServlet mapped to [/]
+2019-06-30-14-39 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-30-14-39 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-30-14-39 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-30-14-39 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-30-14-39 [main] [com.atomikos.icatch.provider.imp.AssemblerImp] [INFO] - Loaded jar:file:/C:/Users/YL/.m2/repository/com/atomikos/transactions/4.0.6/transactions-4.0.6.jar!/transactions-defaults.properties
+2019-06-30-14-39 [main] [com.atomikos.icatch.provider.imp.AssemblerImp] [WARN] - Thanks for using Atomikos! Evaluate http://www.atomikos.com/Main/ExtremeTransactions for advanced features and professional support
+or register at http://www.atomikos.com/Main/RegisterYourDownload to disable this message and receive FREE tips & advice
+2019-06-30-14-39 [main] [com.atomikos.icatch.provider.imp.AssemblerImp] [INFO] - USING: com.atomikos.icatch.default_max_wait_time_on_shutdown = 9223372036854775807
+2019-06-30-14-39 [main] [com.atomikos.icatch.provider.imp.AssemblerImp] [INFO] - USING: com.atomikos.icatch.allow_subtransactions = true
+2019-06-30-14-39 [main] [com.atomikos.icatch.provider.imp.AssemblerImp] [INFO] - USING: com.atomikos.icatch.recovery_delay = 10000
+2019-06-30-14-39 [main] [com.atomikos.icatch.provider.imp.AssemblerImp] [INFO] - USING: com.atomikos.icatch.automatic_resource_registration = true
+2019-06-30-14-39 [main] [com.atomikos.icatch.provider.imp.AssemblerImp] [INFO] - USING: com.atomikos.icatch.oltp_max_retries = 5
+2019-06-30-14-39 [main] [com.atomikos.icatch.provider.imp.AssemblerImp] [INFO] - USING: com.atomikos.icatch.client_demarcation = false
+2019-06-30-14-39 [main] [com.atomikos.icatch.provider.imp.AssemblerImp] [INFO] - USING: com.atomikos.icatch.threaded_2pc = false
+2019-06-30-14-39 [main] [com.atomikos.icatch.provider.imp.AssemblerImp] [INFO] - USING: com.atomikos.icatch.serial_jta_transactions = true
+2019-06-30-14-39 [main] [com.atomikos.icatch.provider.imp.AssemblerImp] [INFO] - USING: com.atomikos.icatch.log_base_dir = H:\eclipse-workspace\springboot-14-jta-atomikos\transaction-logs
+2019-06-30-14-39 [main] [com.atomikos.icatch.provider.imp.AssemblerImp] [INFO] - USING: com.atomikos.icatch.rmi_export_class = none
+2019-06-30-14-39 [main] [com.atomikos.icatch.provider.imp.AssemblerImp] [INFO] - USING: com.atomikos.icatch.max_actives = 50
+2019-06-30-14-39 [main] [com.atomikos.icatch.provider.imp.AssemblerImp] [INFO] - USING: com.atomikos.icatch.checkpoint_interval = 500
+2019-06-30-14-39 [main] [com.atomikos.icatch.provider.imp.AssemblerImp] [INFO] - USING: com.atomikos.icatch.enable_logging = true
+2019-06-30-14-39 [main] [com.atomikos.icatch.provider.imp.AssemblerImp] [INFO] - USING: com.atomikos.icatch.log_base_name = tmlog
+2019-06-30-14-39 [main] [com.atomikos.icatch.provider.imp.AssemblerImp] [INFO] - USING: com.atomikos.icatch.max_timeout = 300000
+2019-06-30-14-39 [main] [com.atomikos.icatch.provider.imp.AssemblerImp] [INFO] - USING: com.atomikos.icatch.trust_client_tm = false
+2019-06-30-14-39 [main] [com.atomikos.icatch.provider.imp.AssemblerImp] [INFO] - USING: java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+2019-06-30-14-39 [main] [com.atomikos.icatch.provider.imp.AssemblerImp] [INFO] - USING: com.atomikos.icatch.tm_unique_name = 172.16.1.9.tm
+2019-06-30-14-39 [main] [com.atomikos.icatch.provider.imp.AssemblerImp] [INFO] - USING: com.atomikos.icatch.forget_orphaned_log_entries_delay = 86400000
+2019-06-30-14-39 [main] [com.atomikos.icatch.provider.imp.AssemblerImp] [INFO] - USING: com.atomikos.icatch.oltp_retry_interval = 10000
+2019-06-30-14-39 [main] [com.atomikos.icatch.provider.imp.AssemblerImp] [INFO] - USING: java.naming.provider.url = rmi://localhost:1099
+2019-06-30-14-39 [main] [com.atomikos.icatch.provider.imp.AssemblerImp] [INFO] - USING: com.atomikos.icatch.force_shutdown_on_vm_exit = false
+2019-06-30-14-39 [main] [com.atomikos.icatch.provider.imp.AssemblerImp] [INFO] - USING: com.atomikos.icatch.default_jta_timeout = 10000
+2019-06-30-14-39 [main] [com.atomikos.icatch.provider.imp.AssemblerImp] [INFO] - Using default (local) logging and recovery...
+2019-06-30-14-39 [main] [org.springframework.transaction.jta.JtaTransactionManager] [INFO] - Using JTA UserTransaction: com.atomikos.icatch.jta.UserTransactionManager@286b39c2
+2019-06-30-14-39 [main] [org.springframework.transaction.jta.JtaTransactionManager] [INFO] - Using JTA TransactionManager: com.atomikos.icatch.jta.UserTransactionManager@286b39c2
+2019-06-30-14-39 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [INFO] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2ed0fbae: startup date [Sun Jun 30 14:39:27 CST 2019]; root of context hierarchy
+2019-06-30-14-39 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/insertUserTest1]}" onto public java.lang.Integer com.study.controller.MybatisMultilDataSourceController.insertUserTest1(java.lang.String,java.lang.Integer,java.lang.String)
+2019-06-30-14-39 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/insertUserTest2]}" onto public java.lang.Integer com.study.controller.MybatisMultilDataSourceController.insertUserTest2(java.lang.String,java.lang.Integer,java.lang.String)
+2019-06-30-14-39 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/insertUserTest01AndTest02]}" onto public int com.study.controller.MybatisMultilDataSourceController.insertUserTest01AndTest02(java.lang.String,java.lang.Integer,java.lang.String)
+2019-06-30-14-39 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-30-14-39 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-30-14-39 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-30-14-39 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-30-14-39 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-30-14-39 [main] [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] [INFO] - Registering beans for JMX exposure on startup
+2019-06-30-14-39 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8888 (http) with context path '/study'
+2019-06-30-14-39 [main] [com.study.MybatisApp] [INFO] - Started MybatisApp in 13.023 seconds (JVM running for 13.989)
+2019-06-30-14-39 [http-nio-8888-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - FrameworkServlet 'dispatcherServlet': initialization started
+2019-06-30-14-39 [http-nio-8888-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - FrameworkServlet 'dispatcherServlet': initialization completed in 58 ms
+2019-06-30-14-39 [http-nio-8888-exec-1] [com.atomikos.jdbc.AbstractDataSourceBean] [INFO] - AtomikosDataSoureBean 'testDataSource': init...
+2019-06-30-14-39 [http-nio-8888-exec-1] [com.atomikos.jdbc.AtomikosDataSourceBean] [INFO] - AtomikosDataSoureBean 'testDataSource': initializing with [ xaDataSourceClassName=null, uniqueResourceName=testDataSource, maxPoolSize=25, minPoolSize=3, borrowConnectionTimeout=30, maxIdleTime=60, reapTimeout=0, maintenanceInterval=60, testQuery=null, xaProperties=[], loginTimeout=30, maxLifetime=20000]
+2019-06-30-14-39 [http-nio-8888-exec-1] [com.atomikos.datasource.xa.XATransactionalResource] [INFO] - testDataSource: refreshed XAResource
+2019-06-30-14-39 [http-nio-8888-exec-1] [com.atomikos.jdbc.AbstractDataSourceBean] [INFO] - AtomikosDataSoureBean 'test2DataSource': init...
+2019-06-30-14-39 [http-nio-8888-exec-1] [com.atomikos.jdbc.AtomikosDataSourceBean] [INFO] - AtomikosDataSoureBean 'test2DataSource': initializing with [ xaDataSourceClassName=null, uniqueResourceName=test2DataSource, maxPoolSize=25, minPoolSize=3, borrowConnectionTimeout=30, maxIdleTime=60, reapTimeout=0, maintenanceInterval=60, testQuery=null, xaProperties=[], loginTimeout=30, maxLifetime=20000]
+2019-06-30-14-39 [http-nio-8888-exec-1] [com.atomikos.datasource.xa.XATransactionalResource] [INFO] - test2DataSource: refreshed XAResource
+2019-06-30-14-40 [http-nio-8888-exec-9] [com.atomikos.jdbc.AbstractDataSourceBean] [INFO] - AtomikosDataSoureBean 'testDataSource': init...
+2019-06-30-14-40 [http-nio-8888-exec-9] [com.atomikos.jdbc.AbstractDataSourceBean] [INFO] - AtomikosDataSoureBean 'test2DataSource': init...

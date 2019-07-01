@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: springboot-11-mybatis
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: YL
+Implementation-Vendor-Id: com.study
+Build-Jdk: 1.8.0_201
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/springboot-11-mybatis
+Created-By: Maven Integration for Eclipse
+

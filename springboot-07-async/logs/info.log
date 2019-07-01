@@ -1,0 +1,43 @@
+2019-06-16-21-02 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.7.Final
+2019-06-16-21-02 [main] [com.study.AppStart] [INFO] - Starting AppStart on DESKTOP-4JH2949 with PID 9968 (H:\eclipse-workspace\springboot-07-async\target\classes started by YL in H:\eclipse-workspace\springboot-07-async)
+2019-06-16-21-02 [main] [com.study.AppStart] [INFO] - No active profile set, falling back to default profiles: default
+2019-06-16-21-02 [main] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [INFO] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@64c87930: startup date [Sun Jun 16 21:02:57 CST 2019]; root of context hierarchy
+2019-06-16-21-03 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8888 (http)
+2019-06-16-21-03 [localhost-startStop-1] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 6715 ms
+2019-06-16-21-03 [localhost-startStop-1] [org.springframework.boot.web.servlet.ServletRegistrationBean] [INFO] - Servlet dispatcherServlet mapped to [/]
+2019-06-16-21-03 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-16-21-03 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-16-21-03 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-16-21-03 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-16-21-03 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [INFO] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@64c87930: startup date [Sun Jun 16 21:02:57 CST 2019]; root of context hierarchy
+2019-06-16-21-03 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/AsyncController/asyncFutureIndex]}" onto public java.lang.String com.study.controller.AsyncController.asyncFutureIndex(java.lang.String,java.lang.String)
+2019-06-16-21-03 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/AsyncController/asyncIndex]}" onto public java.lang.String com.study.controller.AsyncController.asyncIndex(java.lang.String,java.lang.String)
+2019-06-16-21-03 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-16-21-03 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-16-21-03 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-16-21-03 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-16-21-03 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-16-21-03 [main] [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] [INFO] - Registering beans for JMX exposure on startup
+2019-06-16-21-03 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8888 (http) with context path '/study'
+2019-06-16-21-03 [main] [com.study.AppStart] [INFO] - Started AppStart in 11.713 seconds (JVM running for 12.742)
+2019-06-16-21-03 [http-nio-8888-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - FrameworkServlet 'dispatcherServlet': initialization started
+2019-06-16-21-03 [http-nio-8888-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - FrameworkServlet 'dispatcherServlet': initialization completed in 134 ms
+2019-06-16-21-03 [http-nio-8888-exec-1] [com.study.log.WebLogAspect] [INFO] - URL : http://127.0.0.1:8888/study/AsyncController/asyncIndex
+2019-06-16-21-03 [http-nio-8888-exec-1] [com.study.log.WebLogAspect] [INFO] - HTTP_METHOD : GET
+2019-06-16-21-03 [http-nio-8888-exec-1] [com.study.log.WebLogAspect] [INFO] - IP : 127.0.0.1
+2019-06-16-21-03 [http-nio-8888-exec-1] [com.study.log.WebLogAspect] [INFO] - 入参：{"name":"spring","emalis":"1"}
+2019-06-16-21-03 [http-nio-8888-exec-1] [com.study.controller.AsyncController] [INFO] - 1
+2019-06-16-21-03 [http-nio-8888-exec-1] [org.springframework.scheduling.annotation.AnnotationAsyncExecutionInterceptor] [INFO] - No task executor bean found for async processing: no bean of type TaskExecutor and no bean named 'taskExecutor' either
+2019-06-16-21-03 [http-nio-8888-exec-1] [com.study.controller.AsyncController] [INFO] - 2
+2019-06-16-21-03 [http-nio-8888-exec-1] [com.study.log.WebLogAspect] [INFO] - RESPONSE : send emalis Result :null
+2019-06-16-21-03 [SimpleAsyncTaskExecutor-1] [com.study.service.UserService] [INFO] - 3
+2019-06-16-21-03 [SimpleAsyncTaskExecutor-1] [com.study.service.UserService] [INFO] - 4
+2019-06-16-21-03 [http-nio-8888-exec-3] [com.study.log.WebLogAspect] [INFO] - URL : http://127.0.0.1:8888/study/AsyncController/asyncFutureIndex
+2019-06-16-21-03 [http-nio-8888-exec-3] [com.study.log.WebLogAspect] [INFO] - HTTP_METHOD : GET
+2019-06-16-21-03 [http-nio-8888-exec-3] [com.study.log.WebLogAspect] [INFO] - IP : 127.0.0.1
+2019-06-16-21-03 [http-nio-8888-exec-3] [com.study.log.WebLogAspect] [INFO] - 入参：{"name":"spring","emalis":"1"}
+2019-06-16-21-03 [http-nio-8888-exec-3] [com.study.controller.AsyncController] [INFO] - 1
+2019-06-16-21-03 [SimpleAsyncTaskExecutor-2] [com.study.service.UserService] [INFO] - 3
+2019-06-16-21-03 [SimpleAsyncTaskExecutor-2] [com.study.service.UserService] [INFO] - 4
+2019-06-16-21-03 [http-nio-8888-exec-3] [com.study.controller.AsyncController] [INFO] - 2
+2019-06-16-21-03 [http-nio-8888-exec-3] [com.study.log.WebLogAspect] [INFO] - RESPONSE : send emalis Result :success- spring:1

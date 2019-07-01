@@ -1,0 +1,57 @@
+2019-06-18-00-15 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 6.0.7.Final
+2019-06-18-00-15 [main] [com.study.AppStart] [INFO] - Starting AppStart on DESKTOP-4JH2949 with PID 8816 (H:\eclipse-workspace\springboot-10-email\target\classes started by YL in H:\eclipse-workspace\springboot-10-email)
+2019-06-18-00-15 [main] [com.study.AppStart] [INFO] - No active profile set, falling back to default profiles: default
+2019-06-18-00-15 [main] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] [INFO] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@16aa0a0a: startup date [Tue Jun 18 00:15:43 CST 2019]; root of context hierarchy
+2019-06-18-00-15 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat initialized with port(s): 8888 (http)
+2019-06-18-00-15 [localhost-startStop-1] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 5675 ms
+2019-06-18-00-15 [localhost-startStop-1] [org.springframework.boot.web.servlet.ServletRegistrationBean] [INFO] - Servlet dispatcherServlet mapped to [/]
+2019-06-18-00-15 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-18-00-15 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-18-00-15 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-18-00-15 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-18-00-15 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [INFO] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@16aa0a0a: startup date [Tue Jun 18 00:15:43 CST 2019]; root of context hierarchy
+2019-06-18-00-15 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/EmailController/inlineEmail]}" onto public java.lang.String com.study.controller.EmailController.inlineEmail(java.lang.String)
+2019-06-18-00-15 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/EmailController/attachEmail]}" onto public java.lang.String com.study.controller.EmailController.attachEmail(java.lang.String)
+2019-06-18-00-15 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/EmailController/mimeEmail]}" onto public java.lang.String com.study.controller.EmailController.mimeEmail(java.lang.String)
+2019-06-18-00-15 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/EmailController/simpleEmail]}" onto public java.lang.String com.study.controller.EmailController.simpleEmail(java.lang.String)
+2019-06-18-00-15 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/user/query]}" onto public com.study.entity.User com.study.controller.JdbcController.queryUserController(int)
+2019-06-18-00-15 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/user/save]}" onto public java.lang.String com.study.controller.JdbcController.saveUserController(com.study.entity.User)
+2019-06-18-00-15 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-18-00-15 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-18-00-15 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-18-00-15 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-18-00-15 [main] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [INFO] - Detected @ExceptionHandler methods in globalExceprionHandler
+2019-06-18-00-15 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-18-00-15 [main] [org.springframework.ui.freemarker.SpringTemplateLoader] [INFO] - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@16aa0a0a: startup date [Tue Jun 18 00:15:43 CST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
+2019-06-18-00-15 [main] [org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer] [INFO] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-06-18-00-15 [main] [org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration] [WARN] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-06-18-00-15 [main] [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] [INFO] - Registering beans for JMX exposure on startup
+2019-06-18-00-15 [main] [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] [INFO] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-18-00-15 [main] [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] [INFO] - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-06-18-00-15 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO] - Tomcat started on port(s): 8888 (http) with context path '/study'
+2019-06-18-00-15 [main] [com.study.AppStart] [INFO] - Started AppStart in 10.895 seconds (JVM running for 12.012)
+2019-06-18-00-16 [http-nio-8888-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - FrameworkServlet 'dispatcherServlet': initialization started
+2019-06-18-00-16 [http-nio-8888-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - FrameworkServlet 'dispatcherServlet': initialization completed in 109 ms
+2019-06-18-00-16 [http-nio-8888-exec-1] [com.study.log.WebLogAspect] [INFO] - URL : http://127.0.0.1:8888/study/EmailController/mimeEmail
+2019-06-18-00-16 [http-nio-8888-exec-1] [com.study.log.WebLogAspect] [INFO] - HTTP_METHOD : GET
+2019-06-18-00-16 [http-nio-8888-exec-1] [com.study.log.WebLogAspect] [INFO] - IP : 127.0.0.1
+2019-06-18-00-16 [http-nio-8888-exec-1] [com.study.log.WebLogAspect] [INFO] - 入参：{"id":"1"}
+2019-06-18-00-16 [http-nio-8888-exec-1] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Starting...
+2019-06-18-00-16 [http-nio-8888-exec-1] [com.zaxxer.hikari.HikariDataSource] [INFO] - HikariPool-1 - Start completed.
+2019-06-18-00-16 [http-nio-8888-exec-3] [com.study.log.WebLogAspect] [INFO] - URL : http://127.0.0.1:8888/study/EmailController/attachEmail
+2019-06-18-00-16 [http-nio-8888-exec-3] [com.study.log.WebLogAspect] [INFO] - HTTP_METHOD : GET
+2019-06-18-00-16 [http-nio-8888-exec-3] [com.study.log.WebLogAspect] [INFO] - IP : 127.0.0.1
+2019-06-18-00-16 [http-nio-8888-exec-3] [com.study.log.WebLogAspect] [INFO] - 入参：{"id":"1"}
+2019-06-18-00-16 [http-nio-8888-exec-3] [com.study.service.impl.MailServiceImpl] [INFO] - 带邮件的附件发送成功
+2019-06-18-00-16 [http-nio-8888-exec-3] [com.study.log.WebLogAspect] [INFO] - 处理本次请求共耗时：7653 ms
+2019-06-18-00-16 [http-nio-8888-exec-3] [com.study.log.WebLogAspect] [INFO] - RESPONSE : 发送邮件成功
+2019-06-18-00-16 [http-nio-8888-exec-1] [com.study.service.impl.MailServiceImpl] [INFO] - 邮件发送成功
+2019-06-18-00-16 [http-nio-8888-exec-1] [com.study.log.WebLogAspect] [INFO] - 处理本次请求共耗时：22548 ms
+2019-06-18-00-16 [http-nio-8888-exec-1] [com.study.log.WebLogAspect] [INFO] - RESPONSE : 发送邮件成功
+2019-06-18-00-16 [http-nio-8888-exec-4] [com.study.log.WebLogAspect] [INFO] - URL : http://127.0.0.1:8888/study/EmailController/inlineEmail
+2019-06-18-00-16 [http-nio-8888-exec-4] [com.study.log.WebLogAspect] [INFO] - HTTP_METHOD : GET
+2019-06-18-00-16 [http-nio-8888-exec-4] [com.study.log.WebLogAspect] [INFO] - IP : 127.0.0.1
+2019-06-18-00-16 [http-nio-8888-exec-4] [com.study.log.WebLogAspect] [INFO] - 入参：{"id":"1"}
+2019-06-18-00-17 [http-nio-8888-exec-4] [com.study.service.impl.MailServiceImpl] [INFO] - 邮件发送成功
+2019-06-18-00-17 [http-nio-8888-exec-4] [com.study.log.WebLogAspect] [INFO] - 处理本次请求共耗时：23369 ms
+2019-06-18-00-17 [http-nio-8888-exec-4] [com.study.log.WebLogAspect] [INFO] - RESPONSE : 发送邮件成功
